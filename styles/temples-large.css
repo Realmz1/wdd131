@@ -2,8 +2,11 @@
 @media screen and (min-width: 768px) {
     /* Body */
     body {
-        padding: 1rem;
         background-color: #f9f9f9; /* Light background for contrast */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* Center content horizontally */
     }
 
     /* Header */
@@ -46,12 +49,13 @@
 
     /* Main Content */
     main {
-        max-width: 1000px;
-        margin: 2rem auto;
-        padding: 1rem;
-        background: white; /* White background for contrast */
+        max-width: 1200px; /* Limit the main content width */
+        width: 100%; /* Ensure it takes the full width within the constraints */
+        margin: 2rem; /* Add spacing around the content */
+        padding: 1.5rem;
+        background: white; /* White content background */
         border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
     }
 
     main h2 {
