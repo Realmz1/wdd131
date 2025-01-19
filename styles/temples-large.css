@@ -19,11 +19,10 @@
 
     /* Header */
     header {
-        background-color: #0044cc; /* Blue background for the header */
+        background-color: #0044cc;
         color: white;
-        padding: 1.5rem;
+        padding: 1rem 0;
         text-align: center;
-        width: 100vw;
     }
 
     header h1 {
@@ -107,12 +106,11 @@
 
     /* Footer */
     footer {
+        text-align: center;
+        padding: 1rem;
         background-color: #0044cc;
         color: white;
-        text-align: center;
-        padding: 1.5rem;
         margin-top: 2rem;
-        width: 100vw;
     }
 
     footer p {
