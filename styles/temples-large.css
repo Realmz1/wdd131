@@ -10,19 +10,13 @@
         align-items: center; /* Center all content horizontally */
     }
 
-    /* Shared Width for Header, Main, and Footer */
-    header, main, footer {
-        max-width: 1200px; /* Limit the width of all sections */
-        width: 100%; /* Ensure they take the full width within constraints */
-        margin: 0 auto; /* Center them horizontally */
-    }
-
     /* Header */
     header {
         background-color: #0044cc;
         color: white;
         padding: 1rem 0;
         text-align: center;
+        width: 100vw;
     }
 
     header h1 {
@@ -111,6 +105,7 @@
         background-color: #0044cc;
         color: white;
         margin-top: 2rem;
+        width: 100vw;
     }
 
     footer p {
