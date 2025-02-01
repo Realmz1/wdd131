@@ -30,6 +30,12 @@ main {
     padding: 1rem;
 }
 
+picture img {
+    width: 100%;
+    height: cover;
+    border-radius: 8px;
+}
+
 body::before {
     content: "";
     position: fixed; 
