@@ -13,9 +13,14 @@ body {
 }
 
 header {
-    background-color: var(--primary-color);
-    text-align: center;
+    background-color: #0044cc;
+    color: white;
     padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
 }
 
 main {
@@ -46,7 +51,7 @@ picture img {
 }
 
 footer {
-    background-color: var(--primary-color);
+    background-color: #0044cc;
     text-align: center;
     padding: 1rem 0;
     font-size: 0.9rem;
