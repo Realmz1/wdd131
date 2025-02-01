@@ -113,3 +113,19 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (min-width: 768px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .data, .weather {
+        width: 45%;
+    }
+
+    .weather .icon {
+        content: url("images/weather-icon.svg");
+    }
+}
