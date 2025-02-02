@@ -1,3 +1,4 @@
+// Array of Temple Objects
 const temples = [
   {
       name: "Denver Colorado Temple",
@@ -64,6 +65,7 @@ const temples = [
   }
 ];
 
+// Function to display temples
 function displayTemples(templesArray) {
   const gallery = document.querySelector('.gallery');
   gallery.innerHTML = ''; // Clear existing content
@@ -98,10 +100,11 @@ function displayTemples(templesArray) {
 // Initial display of all temples
 displayTemples(temples);
 
+// Filtering functionality
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', (e) => {
       e.preventDefault();
-      const filter = e.target.textContent.toLowerCase();
+      const filter = e.target.id.toLowerCase();
 
       let filteredTemples = [];
       switch (filter) {
@@ -127,3 +130,13 @@ document.querySelectorAll('nav a').forEach(link => {
       displayTemples(filteredTemples);
   });
 });
+
+// Dynamically set the current year in the footer
+const currentYearSpan = document.getElementById("currentyear");
+const currentYear = new Date().getFullYear();
+currentYearSpan.textContent = currentYear;
+
+// Display the last modified date of the document
+const lastModifiedParagraph = document.getElementById("lastModified");
+const lastModifiedDate = document.lastModified;
+lastModifiedParagraph.textContent = `Last Modified: ${lastModifiedDate}`;
