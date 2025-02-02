@@ -5,63 +5,63 @@ const temples = [
       location: "Denver, Colorado, United States",
       dedicated: "1999, October, 24",
       area: 28000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/denver-colorado/2018/1280x800/denver-colorado-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/denver-colorado-temple-lds.jpg"
   },
   {
       name: "Cedar City Utah Temple",
       location: "Cedar City, Utah, United States",
       dedicated: "2017, December, 10",
       area: 42000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cedar-city-utah/2018/1280x800/cedar-city-utah-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/cedar-city-utah-temple-lds.jpg"
   },
   {
       name: "Los Angeles California Temple",
       location: "Los Angeles, California, United States",
       dedicated: "1956, March, 11",
       area: 190614,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/2018/1280x800/los-angeles-california-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/los-angeles-california-temple-lds.jpg"
   },
   {
       name: "St. George Utah Temple",
       location: "St. George, Utah, United States",
       dedicated: "1877, April, 6",
       area: 110000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/st-george-utah/2018/1280x800/st-george-utah-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/st-george-utah-temple-lds.jpg"
   },
   {
       name: "Salt Lake Temple",
       location: "Salt Lake City, Utah, United States",
       dedicated: "1893, April, 6",
       area: 253000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-temple/2018/1280x800/salt-lake-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/salt-lake-temple-lds.jpg"
   },
   {
       name: "Saratoga Springs Utah Temple",
       location: "Saratoga Springs, Utah, United States",
       dedicated: "2023, August, 13",
       area: 87000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/saratoga-springs-utah/2018/1280x800/saratoga-springs-utah-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/saratoga-springs-utah-temple-lds.jpg"
   },
   {
       name: "Mesa Arizona Temple",
       location: "Mesa, Arizona, United States",
       dedicated: "1927, October, 23",
       area: 113000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mesa-arizona/2018/1280x800/mesa-arizona-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/mesa-arizona-temple-lds.jpg"
   },
   {
       name: "Pittsburgh Pennsylvania Temple",
       location: "Pittsburgh, Pennsylvania, United States",
       dedicated: "2023, September, 17",
       area: 32000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/pittsburgh-pennsylvania/2018/1280x800/pittsburgh-pennsylvania-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/pittsburgh-pennsylvania-temple-lds.jpg"
   },
   {
       name: "Provo City Center Temple",
       location: "Provo, Utah, United States",
       dedicated: "2016, March, 20",
       area: 85000,
-      imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/provo-city-center-temple/2018/1280x800/provo-city-center-temple-lds-137883-wallpaper.jpg"
+      imageUrl: "images/provo-city-center-temple-lds.jpg"
   }
 ];
 
