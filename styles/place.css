@@ -2,12 +2,13 @@
     --primary-color: #b22234;
     --secondary-color: #006a4e;
     --text-color: black;
+    --background-color: url('images/Madagascar.jpg');
 }
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('images/Madagascar.jpg'); 
+    background-color: url('images/Madagascar.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
