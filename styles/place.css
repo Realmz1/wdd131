@@ -2,7 +2,7 @@
     --primary-color: #b22234;
     --secondary-color: #006a4e;
     --text-color: black;
-    --background-image: 'images\Madagascar.jpg';
+    --background-image: url('images\Mad.jpg');
 }
 
 body {
