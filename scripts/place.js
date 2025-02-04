@@ -21,3 +21,6 @@ const windSpeed = 5; // km/h
 // Calculate and display wind chill
 const windChill = calculateWindChill(temperature, windSpeed);
 document.getElementById('windchill').textContent = windChill;
+
+document.body.style.backgroundImage = "url('images/place bg image.jpg')";
+document.body.style.backgroundSize = "cover";
