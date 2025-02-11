@@ -75,10 +75,10 @@ nav a {
 
 /* Why Choose Us */
 .why-choose-us .content {
-    display: flex;
+    display: center;
     align-items: center;
     padding: 40px;
-    text-align: left;
+    text-align: right;
 }
 
 .why-choose-us img {
@@ -87,6 +87,7 @@ nav a {
 
 .why-choose-us .text {
     padding-left: 40px;
+    padding-right: 40px;
     font-size: 1.2rem;
 }
 
