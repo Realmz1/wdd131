@@ -130,7 +130,7 @@ nav a {
     color: white;
     padding: 40px 0;
     text-align: center;
-    display: flex;
+    display: center;
     justify-content: space-around;
     align-items: center;
 }
