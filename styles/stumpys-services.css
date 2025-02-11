@@ -1,0 +1,90 @@
+/* Hero Section */
+.services-hero {
+    background: url('images/services-hero.jpg') center/cover no-repeat;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.services-hero h2 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+.services-hero p {
+    font-size: 1.5rem;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-item {
+    width: 30%;
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.service-item h3 {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.process {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.step {
+    width: 30%;
+}
+
+.step img {
+    width: 80px;
+    height: auto;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-phone {
+    background: green;
+    color: white;
+}
+
+.btn-email {
+    background: black;
+    color: white;
+}
