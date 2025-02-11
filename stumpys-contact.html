@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Stumpys</title>
+    <link rel="stylesheet" href="styles/stumpys-contact.css">
+    <script src="scripts/stumpys-contact.js" defer></script>
+</head>
+<body>
+
+    <!-- HEADER (Same as Home Page) -->
+    <header>
+        <div class="top-bar">
+            <p>Financing Available!</p>
+            <div class="contact-icons">
+                <span>📞</span>
+                <span>✉️</span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <div class="contact-left">
+            <h2>HAVE QUESTIONS?</h2>
+            <p>Fill out the form or click the buttons below</p>
+            <div class="contact-buttons">
+                <a href="tel:+1234567890" class="contact-btn">📞 CONTACT US</a>
+                <a href="mailto:hello@stumpys.com" class="contact-btn">✉️ CONTACT US</a>
+            </div>
+        </div>
+
+        <div class="contact-right">
+            <h2>FORM FROM EARLIER</h2>
+            <form action="review.html" method="get">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn submit-btn">SEND MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
