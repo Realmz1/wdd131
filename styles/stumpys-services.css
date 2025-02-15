@@ -1,6 +1,6 @@
 /* Hero Section */
 .services-hero {
-    background: url('images/services-hero.jpg') center/cover no-repeat;
+    background: url('../images/services-hero.jpg') no-repeat center center/cover;
     text-align: center;
     color: white;
     padding: 100px 20px;
