@@ -88,3 +88,30 @@
     background: black;
     color: white;
 }
+
+.top-bar {
+    background-color: #004400;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
